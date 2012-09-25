@@ -121,6 +121,11 @@ class Omnilog_model extends CI_Model {
     $this->_log_limit = 50;
 
     // Initialise the add-on cache.
+    if ( ! isset($this->EE->session) )
+    {
+      $this->EE->session = new stdClass;
+      $this->EE->session->cache = array();
+    }
     if ( ! array_key_exists($this->_namespace, $this->EE->session->cache))
     {
         $this->EE->session->cache[$this->_namespace] = array();
