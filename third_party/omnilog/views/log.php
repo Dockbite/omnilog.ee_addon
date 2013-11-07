@@ -22,7 +22,7 @@
       <th><?php echo lang('thd_type'); ?></th>
       <th><?php echo lang('thd_notify_admin'); ?></th>
       <th><?php echo lang('thd_message'); ?></th>
-      <th style="width : 30%"><?php echo lang('thd_extended_data'); ?></th>
+      <th style="width : 30%"><?php echo lang('thd_extended_data'); ?> <a style="float: right;" href="javascript:$('a.extended_data_toggle').click(); return false;"><?php echo lang('lbl_toggle_all'); ?></a></th>
     </tr>
   </thead>
 

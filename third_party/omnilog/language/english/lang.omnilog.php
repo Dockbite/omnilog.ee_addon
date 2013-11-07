@@ -62,6 +62,7 @@ $lang = array(
 
 'lbl_show'                  => 'Show',
 'lbl_hide'                  => 'Hide',
+'lbl_toggle_all'            => 'toggle all',
 
 'thd_demo_title'            => 'Title',
 'thd_demo_description'      => 'Description',
